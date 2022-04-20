@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(245, 200, 207, 0.87);
+}
+
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 75vw;
+}
+
+.figure {
+  position: absolute;
+}
+
+#bigGreen-Triangle {
+  width: 10em;
+  height: 20em;
+  clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+  background-color: #058038;
+}
+#bigBlue-Triangle {
+  width: 20em;
+  height: 10em;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  background-color: #1b2edb;
+}
+
+#pink-Triangle {
+  width: 5em;
+  height: 10em;
+  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+  background-color: #f36bd6;
+}
+#orange-Triangle {
+  width: 10em;
+  height: 10em;
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  background-color: #eb9524;
+}
+#purple-Square {
+  width: 10em;
+  height: 10em;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background-color: #a42add;
+}
+
+#red-Parallelogram {
+  width: 17.5em;
+  height: 5em;
+  clip-path: polygon(28.5% 0%, 85.6% 0%, 57.5% 100%, 0% 100%);
+  background-color: #e42929;
+}
+#yellow-Triangle {
+  width: 10em;
+  height: 5em;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  background-color: #f5e61c;
+}
