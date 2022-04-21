@@ -1,8 +1,9 @@
 body{
     zoom: 75%;
+    background-image: url(../images/bougeoire.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-
 
 #bigGreen-Triangle {
     transform: translateX(12.41rem) translateY(18.7rem) rotate(90deg) ;

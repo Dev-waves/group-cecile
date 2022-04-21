@@ -1,5 +1,8 @@
 body {
     zoom: 75%;
+    background-image: url(../images/cavalier.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #bigGreen-Triangle {

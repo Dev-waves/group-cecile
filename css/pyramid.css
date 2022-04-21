@@ -1,3 +1,9 @@
+body{
+    background-image: url(../images/pyramide.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .bigGreen-Triangle{
     transform: translateX(7rem) rotate(225deg) translateY(-4.6rem);	
     transition: transform 1s cubic-bezier(.45, -1.12, .35,1.78);

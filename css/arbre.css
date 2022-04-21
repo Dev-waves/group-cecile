@@ -1,8 +1,8 @@
 body {
   color:black;
   background-color:white;
-  background-image:url(https://www.publicdomainpictures.net/pictures/240000/velka/background-with-christmas-tree.jpg);
-  background-position:50% 50%;
+  background-image:url(../images/sapin.jpg);
+  background-size: cover;
   background-repeat:no-repeat;
   zoom: 75%;
   }

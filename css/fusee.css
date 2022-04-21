@@ -1,5 +1,8 @@
-
-
+body{
+    background-image: url(../images/fusée.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .bigGreen-Triangle {
     transform: translateX(10em) translateY(-9em) rotate(135deg);
